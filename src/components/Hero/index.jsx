@@ -17,7 +17,7 @@ const Hero = () => {
     <img src= {pic1} className="d-block w-100 c-img" alt="..." />
     <div className="carousel-caption top-0 mt-4">
             <p className="mt-5 fs-3 text-uppercase"></p>
-            <h1 className="display-1">"<span>Unwind</span> in Elegance, Embrace <span>Comfort</span>."</h1>
+            <h1 className="display-1">"LEARN IN A SAFE AND CONTROLLED ENVIRONMENT"</h1>
         <button className="#F94C10 px-4 py-2 fs-5 mt-5"> Learn more</button>
     </div>
 </div>
@@ -25,7 +25,7 @@ const Hero = () => {
     <img src= {pic2} className="d-block w-100 c-img" alt="..." />
         <div className="carousel-caption top-0 mt-4">
             <p className="mt-5 fs-3 text-uppercase"></p>
-            <h1 className="display-1">"The Art of Living, Embodied in Every Set."</h1>
+            <h1 className="display-1">"SAFETY BEGINS WITH PROPER EDUCATION"</h1>
             <button className="#F94C10 px-4 py-2 fs-5 mt-5">Learn more</button>
         </div>
 </div>
@@ -33,7 +33,7 @@ const Hero = () => {
     <img src= {course3} className="d-block w-100 c-img" alt="..." />
         <div className="carousel-caption top-0 mt-4">
             <p className="mt-5 fs-3 text-uppercase"></p>
-            <h1 className="display-1">"Crafting Your Perfect Living Room Retreat."</h1>
+            <h1 className="display-1">"PRODUCING THE BEST DRIVERS ACROSS THE LAND"</h1>
             <button className="#F94C10 px-4 py-2 fs-5 mt-5">Learn more</button>
         </div>
 </div>

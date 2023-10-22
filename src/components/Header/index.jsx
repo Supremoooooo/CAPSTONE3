@@ -17,7 +17,7 @@ const Header = () => {
         <div className="col-xl-4 col-lg-5">
           <div className="featured-text text-center text-lg-left">
             <h4>Theoretical Driving Course (TDC)</h4>
-            <p className="text-black-50 mb-0">
+            <p className="text-black-50">
               We are currently working on our online slot reservation. For now,
               reservation of slots will be coordinated after the processing of
               enrollment is complete. We recommend you continue with the
