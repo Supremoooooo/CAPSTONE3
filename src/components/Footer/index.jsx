@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-content">
           <div className="contact-info">
               <h3>Contact Information</h3>
-                <p>Email: info@luxeloomliving.com</p>
+                <p>Email: info@LuxeLaneDriving.com</p>
                 <p>Phone: +1 (123) 456-7890</p>
           </div>
           <div className="social-media">
