@@ -1,26 +1,27 @@
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Instructor from './components/Instructor';
-import Navbar from './components/Navbar';
-import Secondsec from './components/Secondsec';
-import Section from './components/Section';
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './Pages/Home';
+import Header from './components/Header/index';
 
+const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home />,
+    },
 
+    {
+      path:'/Header',
+      element: <Header />,
+    },
+  ]);
 
-function App() {
-  console.log(<Navbar />);
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Section />
-      <Secondsec />
-      <Instructor />
-      <ContactUs />
-      <Footer />
+      <div>
+        <RouterProvider router={router} />
+      </div>
     </>
   );
-}
-
+};
 export default App;

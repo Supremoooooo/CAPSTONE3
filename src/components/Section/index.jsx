@@ -2,16 +2,18 @@ import './style.css';
 import featured1 from '../../assets/images/carouselimage/featured1.png';
 import featured2 from '../../assets/images/carouselimage/featured2.jpg';
 import featured3 from '../../assets/images/carouselimage/featured3.jpg';
+import { Link } from 'react-router-dom';
 const Section = () => {
   return (
-    <div class="container text-center">
+    <div className="container text-center">
       <h4>Featured Courses & Services</h4>
 
-      <div class="row align-items-start">
-        <div class="col-12 col-lg-4 p-4">
-          <img src={featured1} alt="" />
+      <div className="row align-items-start">
+        <div className="col-lg-4 ">
+          <img src={featured1} alt="" className='img-fluid'/>
           <h2>
-            <a href="">Theoretical Driving Course (TDC)</a>
+            {/* <a href="">Theoretical Driving Course (TDC)</a> */}
+            <Link to='/Header' className='link'>Theoretical Driving Course (TDC)</Link>
           </h2>
           <p>
             Aspiring drivers are now required to attend 15-hour Theoretical
@@ -19,8 +21,8 @@ const Section = () => {
           </p>
           <p>Starts at Php 1,000</p>
         </div>
-        <div class="col-12 col-lg-4 p-4">
-          <img src={featured2} alt="" />
+        <div className="col-lg-4 ">
+          <img src={featured2} alt=""className='img-fluid' />
           <h2>
             <a href="">Practical Driving Course (PDC)</a>
           </h2>
@@ -30,8 +32,8 @@ const Section = () => {
           </p>
           <p>Starts at Php 4,000</p>
         </div>
-        <div class="col-12 col-lg-4 p-4">
-          <img src={featured3} alt="" />
+        <div className="col-lg-4">
+          <img src={featured3} alt=""className='img-fluid' />
           <h2>
             <a href="">Motorcycle Riding Course (MRC)</a>
           </h2>

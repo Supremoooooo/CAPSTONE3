@@ -1,0 +1,17 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.photo1{
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+Footer{
+    margin-top: 100px;
+}

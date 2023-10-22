@@ -4,21 +4,21 @@ const Footer = () => {
   return (
     <>
         <footer>
-      <div class="footer-content">
-          <div class="contact-info">
+      <div className="footer-content">
+          <div className="contact-info">
               <h3>Contact Information</h3>
                 <p>Email: info@luxeloomliving.com</p>
                 <p>Phone: +1 (123) 456-7890</p>
           </div>
-          <div class="social-media">
+          <div className="social-media">
               <h3>Social Media</h3>
                 <ul>
-                    <li><a href="#"><i class='bx bxl-facebook-circle'></i></a></li>
-                    <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
-                    <li><a href="#"><i class='bx bxl-gmail' ></i></a></li>
+                    <li><a href="#"><i className='bx bxl-facebook-circle'></i></a></li>
+                    <li><a href="#"><i className='bx bxl-twitter' ></i></a></li>
+                    <li><a href="#"><i className='bx bxl-gmail' ></i></a></li>
                 </ul>
           </div>
-          <div class="links">
+          <div className="links">
               <h3>Quick Links</h3>
                 <ul>
                     <li><a href="">Privacy Policy</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                     <li><a href="">Return Policy</a></li>
                 </ul>
           </div>
-          <div class="newsletter">
+          <div className="newsletter">
               <h3>Newsletter Signup</h3>
                 <form id="newsletter-form">
                     <input type="email" placeholder="Enter your email" />
