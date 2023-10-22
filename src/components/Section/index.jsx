@@ -19,7 +19,7 @@ const Section = () => {
             Aspiring drivers are now required to attend 15-hour Theoretical
             Driving Course before applying for student permits.
           </p>
-          <p>Starts at Php 1,000</p>
+          <p><a className='container3' href="">Starts at Php 1,000</a></p>
         </div>
         <div className="col-lg-4 ">
           <img src={featured2} alt=""className='img-fluid' />
@@ -30,7 +30,7 @@ const Section = () => {
             Drive any of our 170+ latest training vehicles at scheduled time
             slots.
           </p>
-          <p>Starts at Php 4,000</p>
+          <p><a className='container3' href="">Starts at Php 4,000</a></p>
         </div>
         <div className="col-lg-4">
           <img src={featured3} alt=""className='img-fluid' />
@@ -38,7 +38,7 @@ const Section = () => {
             <a href="">Motorcycle Riding Course (MRC)</a>
           </h2>
           <p>Future riders can now learn how to navigate the roads safely.</p>
-          <p>Starts at Php 2,500</p>
+          <p><a className='container3' href="">Starts at Php 2,500</a></p>
         </div>
       </div>
 
