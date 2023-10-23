@@ -12,7 +12,9 @@ const Header = () => {
       <img className="photo1" src={course3} alt="" />
       <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
         <p className="text">
-        Choosing to take a driving course is a wise investment in your safety, legal compliance, and overall driving competence. It's a responsible step towards becoming a proficient and responsible driver.
+          Choosing to take a driving course is a wise investment in your safety,
+          legal compliance, and overall driving competence. It's a responsible
+          step towards becoming a proficient and responsible driver.
         </p>
 
         <div className="col-xl-8 col-lg-7">
@@ -34,9 +36,59 @@ const Header = () => {
               completion. If passed, A-1 electronically transmits to LTO-IT
               System and issues TDC Certification of Completion.
             </p>
+
+            <div className='container4'>
+              <label className="myDropdown1" for="myDropdown">
+                <strong>Classroom Branch</strong>:
+              </label>
+              <div className="dropdown-container">
+                <div className="dropdown">
+                  <select id="myDropdown">
+                    <option value="" disabled selected className="placeholder">
+                      Select an option
+                    </option>
+                    <option value="option1">Batangas City</option>
+                    <option value="option2">Laguna City</option>
+                    <option value="option3">Alabang Town Center</option>
+                  </select>
+                </div>
+              </div>
+              <label className="myDropdown1" for="myDropdown">
+                <strong>Time</strong>:
+              </label>
+              <div className="dropdown-container">
+                <div className="dropdown">
+                  <select id="myDropdown">
+                    <option value="" disabled selected className="placeholder">
+                      Select an option
+                    </option>
+                    <option value="option1">7:00am - 12:00pm </option>
+                    <option value="option2">12:00pm - 5:00pm</option>
+                  </select>
+                </div>
+              </div>
+              <label className="myDropdown1" for="myDropdown">
+                <strong>Date</strong>:
+              </label>
+              <div className="dropdown-container">
+                <div className="dropdown">
+                  <select id="myDropdown">
+                    <option value="" disabled selected className="placeholder">
+                      Select an option
+                    </option>
+                    <option value="option1">October 1, 2023 onwards</option>
+                    <option value="option2">November 1, 2023 onwards</option>
+                  </select>
+                </div>
+              </div>
+              <button id="btn1" type="submit">
+                ENROLL NOW
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );
