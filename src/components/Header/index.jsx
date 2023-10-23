@@ -9,10 +9,14 @@ const Header = () => {
   return (
     <>
       <Navbar />
-      <img className='photo1' src={course3} alt="" />
+      <img className="photo1" src={course3} alt="" />
       <div className="row gx-0 mb-4 mb-lg-5 align-items-center">
+        <p className="text">
+        Choosing to take a driving course is a wise investment in your safety, legal compliance, and overall driving competence. It's a responsible step towards becoming a proficient and responsible driver.
+        </p>
+
         <div className="col-xl-8 col-lg-7">
-          <img className="img-fluid mb-3 mb-lg-0"src={featured1} alt="..." />
+          <img className="img-fluid mb-3 mb-lg-0" src={featured1} alt="..." />
         </div>
         <div className="col-xl-4 col-lg-5">
           <div className="featured-text text-center text-lg-left">

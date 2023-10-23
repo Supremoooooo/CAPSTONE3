@@ -10,11 +10,24 @@
     object-fit: cover;
     margin-bottom: 100px;
     margin-top: 80px;
+    position: relative;
 }
+.text {
+    position: absolute;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 24px;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+}
+
 
 .img-fluid{
     max-width: 95%;
     height: auto;
+
 }
 
 Footer{
