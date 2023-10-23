@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
+import Navbar from '../Navbar';
 
 class ContactUsForm extends Component {
   constructor() {
@@ -36,6 +37,7 @@ class ContactUsForm extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <h2>Contact Us</h2>
         <form onSubmit={this.handleSubmit}>
           <div>

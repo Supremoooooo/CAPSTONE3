@@ -1,9 +1,11 @@
 import React from 'react';
 import './style.css';
+import Navbar from '../Navbar';
 
 const About = () => {
   return (
     <div>
+      <Navbar />
       <h1>About Luxe Lane Driving</h1>
       <p>Welcome to Luxe Lane Driving, where the road to becoming a confident, skilled, and responsible driver begins.</p>
 

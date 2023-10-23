@@ -42,7 +42,7 @@ const Section = () => {
         </div>
       </div>
 
-      <button type="submit">Browse All Courses</button>
+      <button type="submit" Link to='/Course' className='link'>Browse All Courses</button>
     </div>
   );
 };
