@@ -1,11 +1,80 @@
-import course1 from '../../assets/images/carouselimage/course1.png';
-import course2 from '../../assets/images/carouselimage/course2.jpg';
-import course3 from '../../assets/images/carouselimage/course3.jpg';
+import React, { Component } from 'react';
+import './style.css';
 
-const ContactUs = () => {
-  return (
-<></>
-  );
-};
+class ContactUsForm extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: '',
+      email: '',
+      message: ''
+    };
+  }
 
-export default ContactUs;
+  handleInputChange = (e) => {
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
+  }
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const { name, email, message } = this.state;
+
+
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Message:', message);
+
+  
+    this.setState({
+      name: '',
+      email: '',
+      message: ''
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <h2>Contact Us</h2>
+        <form onSubmit={this.handleSubmit}>
+          <div>
+            <label htmlFor="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={this.state.name}
+              onChange={this.handleInputChange}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={this.state.email}
+              onChange={this.handleInputChange}
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              value={this.state.message}
+              onChange={this.handleInputChange}
+              required
+            ></textarea>
+          </div>
+          <button id='contactbutton' type="submit">Submit</button>
+        </form>
+      </div>
+    );
+  }
+}
+
+export default ContactUsForm;
