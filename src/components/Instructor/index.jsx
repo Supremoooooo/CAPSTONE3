@@ -15,7 +15,7 @@ const Instructor = () => {
           </h3>
         </div>
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="team-member text-center">
               <img
                 className="mx-auto rounded-circle img-fluid"
@@ -26,6 +26,7 @@ const Instructor = () => {
                 <h4>Mark Dennis Pague</h4>
                 <p className="text-muted">
                   <strong>Instructor</strong>
+                  <p>"Patient and Supportive: Known for a patient and supportive teaching style, especially for nervous or new drivers."</p>
                 </p>
                 <div className="social-media">
                   <a
@@ -53,7 +54,7 @@ const Instructor = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="team-member text-center">
               <img
                 className="mx-auto rounded-circle img-fluid"
@@ -64,6 +65,7 @@ const Instructor = () => {
                 <h4>Mary Joy Avila</h4>
                 <p className="text-muted">
                   <strong>Instructor</strong>
+                  <p>"Friendly and Approachable: Builds strong relationships with students, making them feel comfortable and open to asking questions."</p>
                 </p>
                 <div className="social-media">
                   <a
@@ -91,7 +93,7 @@ const Instructor = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="team-member text-center">
               <img
                 className="mx-auto rounded-circle img-fluid"
@@ -102,6 +104,7 @@ const Instructor = () => {
                 <h4>Shaira Almoceda</h4>
                 <p className="text-muted">
                   <strong>Instructor</strong>
+                  <p>"Vehicle Maintenance Expertise: Provides insights into vehicle maintenance and car care, ensuring students are prepared for emergencies."</p>
                 </p>
                 <div className="social-media">
                   <a
@@ -122,44 +125,6 @@ const Instructor = () => {
                     className="btn btn-dark btn-social mx-2"
                     href="#!"
                     aria-label="Shaira Gmail Profile"
-                  >
-                    <i className="bx bxl-gmail"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3">
-            <div className="team-member text-center">
-              <img
-                className="mx-auto rounded-circle img-fluid"
-                src={course1}
-                alt="..."
-              />
-              <div className="teaminfo">
-                <h4>Josue Vullag Carandang</h4>
-                <p className="text-muted">
-                  <strong>Instructor</strong>
-                </p>
-                <div className="social-media">
-                  <a
-                    className="btn btn-dark btn-social mx-2"
-                    href="#!"
-                    aria-label="Josue Twitter Profile"
-                  >
-                    <i className="bx bxl-twitter"></i>
-                  </a>
-                  <a
-                    className="btn btn-dark btn-social mx-2"
-                    href="#!"
-                    aria-label="Josue Facebook Profile"
-                  >
-                    <i className="bx bxl-facebook-circle"></i>
-                  </a>
-                  <a
-                    className="btn btn-dark btn-social mx-2"
-                    href="#!"
-                    aria-label="Josue Gmail Profile"
                   >
                     <i className="bx bxl-gmail"></i>
                   </a>
