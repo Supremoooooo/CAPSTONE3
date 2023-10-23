@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home';
 import Header from './components/Header/index';
 import ContactUsForm from './components/ContactUs';
+import About from './components/About';
 
 const App = () => {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const App = () => {
     {
       path:'/Contact',
       element:<ContactUsForm />
+    },
+    {
+      path:'/About',
+      element:<About/>
     }
   ]);
 
