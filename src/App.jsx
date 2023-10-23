@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home';
 import Header from './components/Header/index';
 
-
 const App = () => {
   const router = createBrowserRouter([
     {
@@ -12,8 +11,8 @@ const App = () => {
     },
 
     {
-      path:'/ContactUs',
-      element: <ContactUs />,
+      path:'/Header',
+      element: <Header />,
     },
   ]);
 

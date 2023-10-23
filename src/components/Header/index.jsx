@@ -5,7 +5,7 @@ import Footer from '../Footer';
 import course3 from '../../assets/images/carouselimage/course3.jpg';
 import featured1 from '../../assets/images/carouselimage/featured1.png';
 
-const ContactUsHeader = () => {
+const Header = () => {
   return (
     <>
       <Navbar />
